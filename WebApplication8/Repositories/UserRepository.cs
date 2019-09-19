@@ -18,5 +18,17 @@ namespace WebApplication8.Repositories
         {
             return Users.Find(user => user.Id.Equals(id));
         }
+
+        public void AddUser(UserModel user) => Users.Add(user);
+        
+        public void PatchUser(int id, UserModel user)
+        {
+            var patchedUser = GetUserById(id);
+            patchedUser.FirstName = user.FirstName;
+            patchedUser.LastName = user.LastName;
+            patchedUser.Email = user.Email;
+        }
+
+        public void DeleteUser(int id) => Users.Remove(GetUserById(id));
     }
 }

@@ -31,23 +31,17 @@ namespace WebApplication8.Controllers
         // GET: api/User/5
         [HttpGet("{id}", Name = "GetUsers")]
         public UserModel Get(int id) => _userService.GetUserById(id);
-        
+
         // POST: api/User
         [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-        
+        public void Post(UserModel user) => _userService.AddUser(user);
+
         // PUT: api/User/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-        
+        public void Put(int id, [FromBody]UserModel user) => _userService.PatchUser(id, user);
+
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        public void Delete(int id) => _userService.DeleteUser(id);
     }
 }

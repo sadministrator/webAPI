@@ -25,5 +25,11 @@ namespace WebApplication8.Services
         {
             return _userRepository.GetUserById(id);
         }
+
+        public void AddUser(UserModel user) => _userRepository.AddUser(user);
+        
+        public void PatchUser(int id, UserModel user) => _userRepository.PatchUser(id, user);
+
+        public void DeleteUser(int id) => _userRepository.DeleteUser(id);
     }
 }
