@@ -1,0 +1,11 @@
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\bin\Debug\netcoreapp2.0\WebApplication8.deps.json
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\bin\Debug\netcoreapp2.0\WebApplication8.runtimeconfig.json
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\bin\Debug\netcoreapp2.0\WebApplication8.runtimeconfig.dev.json
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\bin\Debug\netcoreapp2.0\WebApplication8.dll
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\bin\Debug\netcoreapp2.0\WebApplication8.pdb
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\obj\Debug\netcoreapp2.0\WebApplication8.csprojAssemblyReference.cache
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\obj\Debug\netcoreapp2.0\WebApplication8.csproj.CoreCompileInputs.cache
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\obj\Debug\netcoreapp2.0\WebApplication8.AssemblyInfoInputs.cache
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\obj\Debug\netcoreapp2.0\WebApplication8.AssemblyInfo.cs
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\obj\Debug\netcoreapp2.0\WebApplication8.dll
+C:\Users\miserrano\Documents\homework\webAPI\hw1\WebApplication8\obj\Debug\netcoreapp2.0\WebApplication8.pdb
