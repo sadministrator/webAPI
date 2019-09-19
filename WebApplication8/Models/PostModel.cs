@@ -8,9 +8,8 @@ namespace WebApplication8.Models
     public class PostModel
     {
         public int Id { get; set; }
-
         public string Content { get; set; }
-
         public UserModel User { get; set; }
+        public DateTime Date { get; set; }
     }
 }
