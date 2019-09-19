@@ -29,11 +29,8 @@ namespace WebApplication8.Controllers
         }
 
         // GET: api/User/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        [HttpGet("{id}", Name = "GetUsers")]
+        public UserModel Get(int id) => _userService.GetUserById(id);
         
         // POST: api/User
         [HttpPost]

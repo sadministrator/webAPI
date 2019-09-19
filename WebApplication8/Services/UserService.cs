@@ -20,5 +20,10 @@ namespace WebApplication8.Services
         {
             return _userRepository.GetUsers();
         }
+
+        public UserModel GetUserById(int id)
+        {
+            return _userRepository.GetUserById(id);
+        }
     }
 }

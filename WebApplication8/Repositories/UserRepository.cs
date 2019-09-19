@@ -8,20 +8,15 @@ namespace WebApplication8.Repositories
 {
     public class UserRepository
     {
+        private List<UserModel> Users = new List<UserModel>();
         public List<UserModel> GetUsers()
         {
-            return new List<UserModel> {
-                new UserModel {
-                    Id = 1,
-                    FirstName = "Pedro",
-                    LastName = "Suarez"
-                },
-                new UserModel {
-                    Id = 2,
-                    FirstName = "Miryam",
-                    LastName = "Ruiz"
-                }
-            };
+            return Users;
+        }
+
+        public UserModel GetUserById(int id)
+        {
+            return Users.Find(user => user.Id.Equals(id));
         }
     }
 }
