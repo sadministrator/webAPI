@@ -28,6 +28,10 @@ namespace WebApplication8
             services.AddMvc();
             services.AddSingleton<UserService>();
             services.AddSingleton<UserRepository>();
+            services.AddSingleton<PostService>();
+            services.AddSingleton<PostRepository>();
+            //services.AddSingleton<CommentService>();
+            //services.AddSingleton<CommentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
